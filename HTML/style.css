@@ -1,0 +1,38 @@
+.reg, .avt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form {
+    background-color: #778899;
+    padding: 1.2em;
+    border: 2px solid rgb(98, 110, 126);
+    border-radius: 0.2em;
+    box-shadow: 5px 5px 5px #92a1b4;
+}
+.button{
+    background-color: #B0C4DE;
+    border: 2px solid rgb(98, 110, 126);
+    border-radius: 0.3em;
+    padding: 0.4em 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
+    font-size: 1.01em;
+}
+.ant{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em; 
+    border-radius: 0.3em;
+    padding: 0.3em 1em;
+    margin-top: 0.5em;
+    border: 2px solid rgb(98, 110, 126);
+    font-size: 1.2em;
+}
+.ant:hover{
+    background-color: #20B2AA;
+}
+.reg:hover{
+    background-color: #B0C4DE;
+}
